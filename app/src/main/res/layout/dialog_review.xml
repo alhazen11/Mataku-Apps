@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_10dp"
+        android:gravity="center"
+        android:background="@drawable/block_corner_green_"
+        tools:context=".ui.review.ReviewActivity">
+    <ImageView
+            android:layout_width="@dimen/size_60dp"
+            android:layout_height="@dimen/size_60dp" app:srcCompat="@drawable/block_corner"
+            android:id="@+id/ui_foto"
+            android:scaleType="centerCrop"
+    />
+    <TextView
+            android:text="TextView "
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/size_10dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" android:id="@+id/ui_nama"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/size_2dp"
+            android:layout_marginBottom="@dimen/size_2dp"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp" app:srcCompat="@drawable/ic_star_b"
+                android:id="@+id/ui_start1" android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp" app:srcCompat="@drawable/ic_star_b"
+                android:id="@+id/ui_start2" android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp" app:srcCompat="@drawable/ic_star_b"
+                android:id="@+id/ui_start3" android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp" app:srcCompat="@drawable/ic_star_b"
+                android:id="@+id/ui_start4" android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp" app:srcCompat="@drawable/ic_star_b"
+                android:id="@+id/ui_start5" android:layout_weight="1"/>
+    </LinearLayout>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:gravity="start|top"
+            android:hint="@string/keterangan"
+            android:ems="10"
+            android:id="@+id/ui_keterangan"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="@string/cancel"
+                android:layout_width="wrap_content"
+                android:background="@drawable/block_corner_green_dark"
+                android:textColor="@color/colorwhite"
+                android:layout_marginRight="@dimen/size_4dp"
+                android:layout_height="wrap_content" android:id="@+id/ui_cancel" android:layout_weight="1"/>
+        <Button
+                android:text="@string/review"
+                android:layout_width="wrap_content"
+                android:background="@drawable/block_corner_green_dark"
+                android:textColor="@color/colorwhite"
+                android:layout_marginLeft="@dimen/size_4dp"
+                android:layout_height="wrap_content" android:id="@+id/ui_review" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

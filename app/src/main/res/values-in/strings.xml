@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Mataku</string>
+    <string name="selmat_datang">Selamat Datang !</string>
+    <string name="masukan_data">Masukan data diri anda.</string>
+    <string name="silakan_login">Silakan login untuk memasuki aplikasi</string>
+    <string name="hai">Hai !</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="cek_mata">Cek Mata</string>
+    <string name="penguna_baru">Penguna Baru ? Registrasi</string>
+    <string name="punya_akun">Sudah Punya Akun ? Masuk</string>
+    <string name="dokter">Dokter</string>
+    <string name="rumah_sakit">Rumah Sakit Terdekat</string>
+    <string name="coba_tebak">Coba untuk tebak dengan benar \nangka yang muncul</string>
+    <string name="konsultasi">Ajukan Konsultasi</string>
+    <string name="batal">Batal</string>
+    <string name="menunggu">Menunggu Konfirmasi</string>
+    <string name="terhubung">Terhubung</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="tidak_ada_foto">Tidak ada foto</string>
+    <string name="kamera">&#160;Kamera</string>
+    <string name="galeri">&#160;Galeri</string>
+    <string name="hasil">Hasil</string>
+    <string name="jauhkan_perangkat">Jauhkan Perangkat sekitar 30 cm</string>
+    <string name="mata_kiri">Mata Kiri</string>
+    <string name="mata_kanan">Mata Kanan</string>
+    <string name="ambil_foto">ambil foto salah satu mata anda \n dan pastkan foto yang diambil lurus, jeas dan terang \n
+        agar hasil lebih akurat
+    </string>
+    <string name="name">Nama</string>
+    <string name="pterigium">Pterigium</string>
+    <string name="buta_warna">Buta Warna</string>
+    <string name="miopi">Miopi</string>
+    <string name="katarak">Katarak</string>
+
+    <string name="cpassword">Konfirmasi Password</string>
+    <string name="kdokter">Konsultasi</string>
+    <string name="favorit">Favorit</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="log">Catatan</string>
+    <string name="review">Review</string>
+    <string name="service">Service</string>
+    <string name="setting">Setting</string>
+    <string name="update">Update</string>
+    <string name="ubah">Ubah Password</string>
+    <string name="passwordold">Password Lama</string>
+    <string name="passwordnew">Password Baru</string>
+    <string name="cpasswordbaru">Konfirmasi Password Baru</string>
+    <string name="cancel">Cancel</string>
+    <string name="ajukan">Mengajukan Konsultasi</string>
+    <string name="keterangan">Text Review</string>
+    <string name="logout">Keluar</string>
+    <string name="terima">Terima</string>
+    <string name="hapus">Hapus</string>
+    <string name="accuracy">Tingkat akurasi : %d%%</string>
+    <string name="pilih_mata">Pilih Mata</string>
+    <string name="kembali">Kembali</string>
+    <string name="tidak_tau">Tidak Tau</string>
+    <string name="hasil_butawarna">Hasil Buta Warna : Benar</string>
+    <string name="hasil_miopi">Hasil Miopi : Benar</string>
+    <string name="of_test">dari 10 test</string>
+
+    <string-array name="huruf">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="angka">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

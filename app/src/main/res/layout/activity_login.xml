@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent"
+        tools:context=".ui.login.LoginActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:padding="@dimen/size_20dp"
+                android:layout_height="match_parent"
+        >
+            <ImageView
+                    android:layout_width="@dimen/size_200dp"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/imageView2"/>
+            <TextView
+                    android:text="@string/selmat_datang"
+                    android:textColor="@color/colorwhite"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/text_24sp"
+                    android:layout_height="wrap_content" android:id="@+id/textView2"/>
+            <TextView
+                    android:text="@string/silakan_login"
+                    android:textColor="@color/colorwhite"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/size_20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/email"
+                    android:padding="@dimen/size_10dp"
+                    android:layout_marginBottom="@dimen/size_10dp"
+                    android:background="@drawable/block_corner"
+                    android:id="@+id/ui_email"/>
+            <EditText
+                    android:layout_marginBottom="@dimen/size_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/size_10dp"
+                    android:hint="@string/password"
+                    android:background="@drawable/block_corner"
+                    android:id="@+id/ui_password"/>
+            <Button
+                    android:text="Masuk"
+                    android:textColor="@color/colorwhite"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/size_20dp"
+                    android:background="@drawable/block_corner_green_dark"
+                    android:layout_height="wrap_content" android:id="@+id/ui_login"/>
+            <TextView
+                    android:text="@string/penguna_baru"
+                    android:textColor="@color/colorwhite"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" android:id="@+id/ui_daftar"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

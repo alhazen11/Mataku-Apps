@@ -1,0 +1,6 @@
+
+csquid:S1068"ERemove this unused "CAMERA_CAPTURE_IMAGE_REQUEST_CODE" private field.(÷¸áÃ8†ªˆÑ¦-
+squid:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô¸™ûÿÿÿÿ
+]squid:S1118":Add a private constructor to hide the implicit public one.(ÍõÈõøÿÿÿÿ8±ÌˆÑ¦-
+Xsquid:S1126C"AReplace this if-then-else statement by a single return statement.(µˆÈÊ
+Ksquid:S1066i"/Merge this if statement with the enclosing one.(Çü»ßûÿÿÿÿ
